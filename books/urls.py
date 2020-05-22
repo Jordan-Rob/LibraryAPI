@@ -3,5 +3,5 @@ from django.urls import path
 from .views import BookListView
 
 urlpatterns = [
-    path('', BookListView.as_view(), name name='books'),
+    path('', BookListView.as_view(), name='books'),
 ]
